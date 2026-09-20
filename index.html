@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJB Properties | Land, Houses & Property in Uganda</title>
+    <meta name="description"
+        content="KJB Properties is a real estate company in Nateete, Kampala dealing in buying and selling land, houses and second-hand buildings in Uganda.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!-- ========================= TOP BAR ========================= -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <div> <span> <i class="fa-solid fa-location-dot"></i> Nateete, Kampala, Uganda </span> <span> <i
+                        class="fa-solid fa-clock"></i> Mon - Sat: 8:00 AM - 6:00 PM </span> </div>
+            <div class="top-contact"> <a href="tel:+256700000000"> <i class="fa-solid fa-phone"></i> +256 700 000 000
+                </a> <a href="https://wa.me/256700000000" target="_blank"> <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp </a> </div>
+        </div>
+    </div> <!-- ========================= NAVIGATION ========================= -->
+    <header class="header" id="header">
+        <div class="container nav-container"> <a href="#home" class="logo"> <span class="logo-mark">K</span> <span>
+                    <strong>KJB</strong> <small>PROPERTIES</small> </span> </a>
+            <nav class="nav" id="nav"> <a href="#home" class="nav-link active">Home</a> <a href="#properties"
+                    class="nav-link">Properties</a> <a href="#services" class="nav-link">Services</a> <a href="#about"
+                    class="nav-link">About Us</a> <a href="#sell" class="nav-link">Sell Property</a> <a href="#contact"
+                    class="nav-link">Contact</a> <a href="#properties" class="nav-btn"> View Properties </a> </nav>
+            <button class="mobile-menu" id="mobileMenu" aria-label="Open menu"> <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <main> <!-- ========================= HERO ========================= -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text"> <span class="eyebrow"> <i class="fa-solid fa-house"></i> Trusted Property
+                        Partners in Uganda </span>
+                    <h1> Find Land.<br> <span>Find Your Future.</span> </h1>
+                    <p> KJB Properties helps you buy and sell land, houses and second-hand buildings across Kampala and
+                        Uganda. </p>
+                    <div class="hero-buttons"> <a href="#properties" class="btn btn-primary"> Explore Properties <i
+                                class="fa-solid fa-arrow-right"></i> </a> <a href="https://wa.me/256700000000"
+                            target="_blank" class="btn btn-whatsapp"> <i class="fa-brands fa-whatsapp"></i> Chat on
+                            WhatsApp </a> </div>
+                </div> <!-- SEARCH BOX -->
+                <div class="property-search">
+                    <div class="search-heading"> <span>PROPERTY SEARCH</span>
+                        <h3>What are you looking for?</h3>
+                    </div>
+                    <form id="searchForm">
+                        <div class="search-field"> <label>Location</label> <select id="locationFilter">
+                                <option value="all">All Locations</option>
+                                <option value="Nateete">Nateete</option>
+                                <option value="Rubaga">Rubaga</option>
+                                <option value="Wakiso">Wakiso</option>
+                                <option value="Kira">Kira</option>
+                                <option value="Nansana">Nansana</option>
+                                <option value="Kampala">Kampala</option>
+                                <option value="Entebbe">Entebbe</option>
+                            </select> </div>
+                        <div class="search-field"> <label>Property Type</label> <select id="typeFilter">
+                                <option value="all">All Properties</option>
+                                <option value="land">Land</option>
+                                <option value="house">House</option>
+                                <option value="building">Building</option>
+                                <option value="commercial">Commercial</option>
+                            </select> </div>
+                        <div class="search-field"> <label>Purpose</label> <select id="purposeFilter">
+                                <option value="all">Buy or Sell</option>
+                                <option value="sale">For Sale</option>
+                                <option value="buy">We Buy</option>
+                            </select> </div> <button type="submit" class="search-button"> <i
+                                class="fa-solid fa-magnifying-glass"></i> Search </button>
+                    </form>
+                </div>
+            </div>
+        </section> <!-- ========================= STATS ========================= -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat"> <i class="fa-solid fa-map-location-dot"></i>
+                    <div> <strong class="counter" data-target="150">0</strong> <span>Properties Listed</span> </div>
+                </div>
+                <div class="stat"> <i class="fa-solid fa-handshake"></i>
+                    <div> <strong class="counter" data-target="85">0</strong> <span>Successful Deals</span> </div>
+                </div>
+                <div class="stat"> <i class="fa-solid fa-users"></i>
+                    <div> <strong class="counter" data-target="500">0</strong> <span>Happy Clients</span> </div>
+                </div>
+                <div class="stat"> <i class="fa-solid fa-location-dot"></i>
+                    <div> <strong class="counter" data-target="20">0</strong> <span>Areas Covered</span> </div>
+                </div>
+            </div>
+        </section> <!-- ========================= FEATURED PROPERTIES ========================= -->
+        <section class="section properties-section" id="properties">
+            <div class="container">
+                <div class="section-heading">
+                    <div> <span class="eyebrow dark">OUR PROPERTIES</span>
+                        <h2> Featured Properties </h2>
+                        <p> Explore some of the land, houses and buildings currently available through KJB Properties.
+                        </p>
+                    </div> <a href="#all-properties" class="outline-btn"> View All Properties <i
+                            class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+                <div class="property-grid" id="propertyGrid"> <!-- PROPERTY 1 -->
+                    <article class="property-card" data-location="Nateete" data-type="land" data-purpose="sale">
+                        <div class="property-image"> <img src="images/land-1.jpg" alt="Land for sale in Nateete"
+                                onerror="this.src='https://placehold.co/900x650?text=KJB+Land+Property'"> <span
+                                class="property-badge">FOR SALE</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>LAND</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Nateete </span> </div>
+                            <h3>Prime Residential Plot — Nateete</h3>
+                            <p class="property-description"> Excellent residential plot in a developed neighbourhood
+                                with easy access to Kampala. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-ruler-combined"></i> 50 × 100 ft
+                                </span> <span> <i class="fa-solid fa-file-contract"></i> Title </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 85M </strong> <button
+                                    class="details-btn" onclick="openProperty(1)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article> <!-- PROPERTY 2 -->
+                    <article class="property-card" data-location="Wakiso" data-type="land" data-purpose="sale">
+                        <div class="property-image"> <img src="images/land-2.jpg" alt="Land for sale in Wakiso"
+                                onerror="this.src='https://placehold.co/900x650?text=Wakiso+Land'"> <span
+                                class="property-badge">FOR SALE</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>LAND</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Wakiso </span> </div>
+                            <h3>50 × 100 Residential Plot — Wakiso</h3>
+                            <p class="property-description"> Affordable plot suitable for building a family home or
+                                long-term investment. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-ruler-combined"></i> 50 × 100 ft
+                                </span> <span> <i class="fa-solid fa-file-contract"></i> Title </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 35M </strong> <button
+                                    class="details-btn" onclick="openProperty(2)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article> <!-- PROPERTY 3 -->
+                    <article class="property-card" data-location="Kira" data-type="house" data-purpose="sale">
+                        <div class="property-image"> <img src="images/house-1.jpg" alt="House for sale in Kira"
+                                onerror="this.src='https://placehold.co/900x650?text=KJB+House'"> <span
+                                class="property-badge">HOUSE FOR SALE</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>HOUSE</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Kira </span> </div>
+                            <h3>Modern Family Home — Kira</h3>
+                            <p class="property-description"> Spacious second-hand family house in a secure and developed
+                                residential neighbourhood. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-bed"></i> 4 Bedrooms </span> <span>
+                                    <i class="fa-solid fa-bath"></i> 3 Bathrooms </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 420M </strong> <button
+                                    class="details-btn" onclick="openProperty(3)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article> <!-- PROPERTY 4 -->
+                    <article class="property-card" data-location="Nansana" data-type="building" data-purpose="sale">
+                        <div class="property-image"> <img src="images/building-1.jpg" alt="Building for sale in Nansana"
+                                onerror="this.src='https://placehold.co/900x650?text=Commercial+Building'"> <span
+                                class="property-badge">BUILDING</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>COMMERCIAL</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Nansana </span> </div>
+                            <h3>Commercial Building — Nansana</h3>
+                            <p class="property-description"> Multi-purpose commercial property suitable for shops,
+                                offices and rental income. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-building"></i> Multi-storey </span>
+                                <span> <i class="fa-solid fa-car"></i> Parking </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 950M </strong> <button
+                                    class="details-btn" onclick="openProperty(4)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article> <!-- PROPERTY 5 -->
+                    <article class="property-card" data-location="Rubaga" data-type="house" data-purpose="sale">
+                        <div class="property-image"> <img src="images/house-2.jpg" alt="House for sale in Rubaga"
+                                onerror="this.src='https://placehold.co/900x650?text=House+For+Sale'"> <span
+                                class="property-badge">FOR SALE</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>HOUSE</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Rubaga </span> </div>
+                            <h3>Family House — Rubaga</h3>
+                            <p class="property-description"> Well-positioned family residence with ample compound and
+                                convenient access to Kampala. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-bed"></i> 3 Bedrooms </span> <span>
+                                    <i class="fa-solid fa-bath"></i> 2 Bathrooms </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 280M </strong> <button
+                                    class="details-btn" onclick="openProperty(5)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article> <!-- PROPERTY 6 -->
+                    <article class="property-card" data-location="Entebbe" data-type="land" data-purpose="sale">
+                        <div class="property-image"> <img src="images/land-3.jpg" alt="Land for sale in Entebbe"
+                                onerror="this.src='https://placehold.co/900x650?text=Entebbe+Land'"> <span
+                                class="property-badge">NEW</span> <button class="favorite"> <i
+                                    class="fa-regular fa-heart"></i> </button> </div>
+                        <div class="property-info">
+                            <div class="property-type"> <span>LAND</span> <span> <i
+                                        class="fa-solid fa-location-dot"></i> Entebbe </span> </div>
+                            <h3>Prime Land — Entebbe Road</h3>
+                            <p class="property-description"> Attractive land suitable for residential development,
+                                investment or future construction. </p>
+                            <div class="property-meta"> <span> <i class="fa-solid fa-ruler-combined"></i> 100 × 100 ft
+                                </span> <span> <i class="fa-solid fa-road"></i> Road Access </span> </div>
+                            <div class="property-bottom"> <strong class="price"> UGX 120M </strong> <button
+                                    class="details-btn" onclick="openProperty(6)"> Details <i
+                                        class="fa-solid fa-arrow-right"></i> </button> </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="center-button"> <button class="btn btn-dark" id="loadMore"> View More Properties <i
+                            class="fa-solid fa-arrow-right"></i> </button> </div>
+            </div>
+        </section> <!-- ========================= SERVICES ========================= -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading centered"> <span class="eyebrow dark"> WHAT WE DO </span>
+                    <h2> Complete Property Solutions </h2>
+                    <p> Whether you are buying your first plot, selling a house, or looking for an investment
+                        opportunity, KJB Properties can help. </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"> <i class="fa-solid fa-map-location-dot"></i> </div>
+                        <h3>Land For Sale</h3>
+                        <p> We connect buyers with residential, commercial and investment land in strategic locations.
+                        </p> <a href="#properties"> Explore Land <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                    <div class="service-card featured-service">
+                        <div class="service-icon"> <i class="fa-solid fa-house"></i> </div>
+                        <h3>Houses For Sale</h3>
+                        <p> Find second-hand houses and ready properties suitable for families, rentals and investment.
+                        </p> <a href="#properties"> View Houses <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"> <i class="fa-solid fa-building"></i> </div>
+                        <h3>Commercial Buildings</h3>
+                        <p> Discover commercial buildings, rental properties, shops and income-generating investments.
+                        </p> <a href="#properties"> View Buildings <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"> <i class="fa-solid fa-hand-holding-dollar"></i> </div>
+                        <h3>We Buy Land</h3>
+                        <p> Have land you want to sell? Contact KJB Properties and let us discuss your property. </p> <a
+                            href="#sell"> Sell To Us <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ========================= ABOUT ========================= -->
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-images">
+                    <div class="about-main-image"> <img src="images/about-main.jpg" alt="KJB Properties team"
+                            onerror="this.src='https://placehold.co/900x700?text=KJB+Properties'"> </div>
+                    <div class="about-small-image"> <img src="images/about-small.jpg" alt="KJB Properties property"
+                            onerror="this.src='https://placehold.co/500x600?text=Property+Uganda'"> </div>
+                    <div class="experience-box"> <strong>10+</strong> <span>Years of<br>Experience</span> </div>
+                </div>
+                <div class="about-content"> <span class="eyebrow dark"> ABOUT KJB PROPERTIES </span>
+                    <h2> Helping Ugandans Find Property With Confidence </h2>
+                    <p class="lead"> KJB Properties is a property company based in Nateete, Kampala, focused on buying
+                        and selling land, houses and buildings. </p>
+                    <p> Our goal is to make property transactions simpler by connecting serious buyers and sellers with
+                        suitable properties and providing clear information throughout the process. </p>
+                    <div class="about-list">
+                        <div> <i class="fa-solid fa-circle-check"></i> <span>Land and plots for sale</span> </div>
+                        <div> <i class="fa-solid fa-circle-check"></i> <span>Buying land from property owners</span>
+                        </div>
+                        <div> <i class="fa-solid fa-circle-check"></i> <span>Second-hand houses and buildings</span>
+                        </div>
+                        <div> <i class="fa-solid fa-circle-check"></i> <span>Property viewing arrangements</span> </div>
+                    </div> <a href="#contact" class="btn btn-dark"> Talk To KJB Properties <i
+                            class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </section> <!-- ========================= BUY / SELL CTA ========================= -->
+        <section class="split-cta">
+            <div class="split-image"> <img src="images/sell-property.jpg" alt="Sell your property"
+                    onerror="this.src='https://placehold.co/1000x800?text=Sell+Your+Property'"> </div>
+            <div class="split-content"> <span class="eyebrow"> SELL YOUR PROPERTY </span>
+                <h2> Have Land or a House to Sell? </h2>
+                <p> Tell us about your property. KJB Properties works with property owners looking for serious buyers.
+                </p> <a href="#sell" class="btn btn-light"> Submit Your Property <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section> <!-- ========================= WHY CHOOSE US ========================= -->
+        <section class="section why-section">
+            <div class="container">
+                <div class="section-heading centered"> <span class="eyebrow dark"> WHY KJB PROPERTIES </span>
+                    <h2> Property Made Simpler </h2>
+                    <p> We focus on making the buying and selling experience straightforward and professional. </p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-card"> <span class="why-number">01</span> <i class="fa-solid fa-location-dot"></i>
+                        <h3>Strategic Locations</h3>
+                        <p> We focus on properties in established and developing areas around Kampala and beyond. </p>
+                    </div>
+                    <div class="why-card"> <span class="why-number">02</span> <i class="fa-solid fa-eye"></i>
+                        <h3>Property Viewing</h3>
+                        <p> Arrange a physical property viewing before making important decisions. </p>
+                    </div>
+                    <div class="why-card"> <span class="why-number">03</span> <i class="fa-solid fa-comments"></i>
+                        <h3>Direct Communication</h3>
+                        <p> Speak directly with our team about available properties and your requirements. </p>
+                    </div>
+                    <div class="why-card"> <span class="why-number">04</span> <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Property Information</h3>
+                        <p> We encourage buyers to verify ownership documents and property information before completing
+                            transactions. </p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ========================= SELL FORM ========================= -->
+        <section class="section sell-section" id="sell">
+            <div class="container sell-grid">
+                <div class="sell-content"> <span class="eyebrow dark"> SELL TO KJB PROPERTIES </span>
+                    <h2> Tell Us About Your Property </h2>
+                    <p> Are you looking to sell land, a house, apartment, commercial building or another property? </p>
+                    <div class="sell-benefits">
+                        <div> <i class="fa-solid fa-check"></i> <span>Submit your property details</span> </div>
+                        <div> <i class="fa-solid fa-check"></i> <span>Our team will contact you</span> </div>
+                        <div> <i class="fa-solid fa-check"></i> <span>Arrange property assessment</span> </div>
+                    </div>
+                </div>
+                <form class="professional-form" id="sellForm">
+                    <h3>Property Information</h3>
+                    <div class="form-row">
+                        <div class="form-group"> <label>Your Name *</label> <input type="text" name="name" required
+                                placeholder="Enter your name"> </div>
+                        <div class="form-group"> <label>Phone Number *</label> <input type="tel" name="phone" required
+                                placeholder="+256 ..."> </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"> <label>Property Type *</label> <select name="property_type" required>
+                                <option value="">Select type</option>
+                                <option>Land</option>
+                                <option>House</option>
+                                <option>Commercial Building</option>
+                                <option>Apartment</option>
+                                <option>Other</option>
+                            </select> </div>
+                        <div class="form-group"> <label>Location *</label> <input type="text" name="location" required
+                                placeholder="e.g. Nateete, Kampala"> </div>
+                    </div>
+                    <div class="form-group"> <label>Expected Price</label> <input type="text" name="price"
+                            placeholder="e.g. UGX 300,000,000"> </div>
+                    <div class="form-group"> <label>Additional Information</label> <textarea name="message" rows="4"
+                            placeholder="Tell us more about your property..."></textarea> </div> <button
+                        class="btn btn-primary form-submit" type="submit"> Submit Property <i
+                            class="fa-solid fa-paper-plane"></i> </button>
+                    <p class="form-message" id="sellMessage"></p>
+                </form>
+            </div>
+        </section> <!-- ========================= TESTIMONIALS ========================= -->
+        <section class="section testimonials-section">
+            <div class="container">
+                <div class="section-heading centered"> <span class="eyebrow dark"> CLIENT EXPERIENCES </span>
+                    <h2> What Our Clients Say </h2>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <div class="quote"> <i class="fa-solid fa-quote-left"></i> </div>
+                        <p> "KJB Properties helped me understand the property options available before I made my
+                            decision. The communication was very good." </p>
+                        <div class="client">
+                            <div class="client-avatar">A</div>
+                            <div> <strong>Alex K.</strong> <span>Kampala</span> </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote"> <i class="fa-solid fa-quote-left"></i> </div>
+                        <p> "I was looking for land around Kampala and KJB made it easier for me to compare different
+                            properties." </p>
+                        <div class="client">
+                            <div class="client-avatar">M</div>
+                            <div> <strong>Martin O.</strong> <span>Wakiso</span> </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote"> <i class="fa-solid fa-quote-left"></i> </div>
+                        <p> "The team was responsive and helped arrange a viewing of the property I was interested in."
+                        </p>
+                        <div class="client">
+                            <div class="client-avatar">S</div>
+                            <div> <strong>Sarah N.</strong> <span>Kampala</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ========================= FAQ ========================= -->
+        <section class="section faq-section">
+            <div class="container faq-container">
+                <div class="faq-intro"> <span class="eyebrow dark"> FAQ </span>
+                    <h2> Frequently Asked Questions </h2>
+                    <p> Have questions about buying or selling property? Here are some common questions. </p> <a
+                        href="#contact" class="outline-btn"> Ask Us A Question </a>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item"> <button class="faq-question"> How can I view a property? <i
+                                class="fa-solid fa-plus"></i> </button>
+                        <div class="faq-answer">
+                            <p> Contact KJB Properties through phone, WhatsApp or the enquiry form. We can arrange a
+                                suitable time to discuss and view the property. </p>
+                        </div>
+                    </div>
+                    <div class="faq-item"> <button class="faq-question"> Do you buy land from owners? <i
+                                class="fa-solid fa-plus"></i> </button>
+                        <div class="faq-answer">
+                            <p> Yes. Property owners can submit their land details through our Sell Your Property
+                                section for review. </p>
+                        </div>
+                    </div>
+                    <div class="faq-item"> <button class="faq-question"> Do you sell second-hand houses? <i
+                                class="fa-solid fa-plus"></i> </button>
+                        <div class="faq-answer">
+                            <p> Yes. KJB Properties can list suitable second-hand houses and buildings available for
+                                sale. </p>
+                        </div>
+                    </div>
+                    <div class="faq-item"> <button class="faq-question"> Where is KJB Properties located? <i
+                                class="fa-solid fa-plus"></i> </button>
+                        <div class="faq-answer">
+                            <p> Our business is located in Nateete, Kampala, Uganda. </p>
+                        </div>
+                    </div>
+                    <div class="faq-item"> <button class="faq-question"> Can I contact you through WhatsApp? <i
+                                class="fa-solid fa-plus"></i> </button>
+                        <div class="faq-answer">
+                            <p> Yes. Use the WhatsApp buttons throughout the website to start a conversation with KJB
+                                Properties. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ========================= CONTACT ========================= -->
+        <section class="contact-section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info"> <span class="eyebrow"> CONTACT KJB PROPERTIES </span>
+                    <h2> Let's Find Your Next Property </h2>
+                    <p> Talk to our team about land, houses, buildings or selling your property. </p>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fa-solid fa-location-dot"></i> </div>
+                        <div> <span>Our Office</span> <strong>Nateete, Kampala, Uganda</strong> </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fa-solid fa-phone"></i> </div>
+                        <div> <span>Call Us</span> <strong>+256 700 000 000</strong> </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fa-brands fa-whatsapp"></i> </div>
+                        <div> <span>WhatsApp</span> <strong>+256 700 000 000</strong> </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"> <i class="fa-solid fa-envelope"></i> </div>
+                        <div> <span>Email</span> <strong>info@kjbproperties.com</strong> </div>
+                    </div>
+                    <div class="social-links"> <a href="#" aria-label="Facebook"> <i
+                                class="fa-brands fa-facebook-f"></i> </a> <a href="#" aria-label="Instagram"> <i
+                                class="fa-brands fa-instagram"></i> </a> <a href="#" aria-label="TikTok"> <i
+                                class="fa-brands fa-tiktok"></i> </a> <a href="https://wa.me/256700000000"
+                            target="_blank" aria-label="WhatsApp"> <i class="fa-brands fa-whatsapp"></i> </a> </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>Send Us A Message</h3>
+                    <div class="form-row">
+                        <div class="form-group"> <label>Full Name *</label> <input type="text" name="name" required
+                                placeholder="Your name"> </div>
+                        <div class="form-group"> <label>Phone *</label> <input type="tel" name="phone" required
+                                placeholder="+256 ..."> </div>
+                    </div>
+                    <div class="form-group"> <label>Email Address</label> <input type="email" name="email"
+                            placeholder="you@example.com"> </div>
+                    <div class="form-group"> <label>I'm interested in</label> <select name="interest">
+                            <option>Buying Land</option>
+                            <option>Buying a House</option>
+                            <option>Buying a Building</option>
+                            <option>Selling My Property</option>
+                            <option>Other</option>
+                        </select> </div>
+                    <div class="form-group"> <label>Message *</label> <textarea name="message" rows="5" required
+                            placeholder="How can we help you?"></textarea> </div> <button type="submit"
+                        class="btn btn-primary form-submit"> Send Message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <p class="form-message" id="contactMessage"></p>
+                </form>
+            </div>
+        </section> <!-- ========================= PROPERTY MODAL ========================= -->
+        <div class="modal" id="propertyModal">
+            <div class="modal-overlay" onclick="closeProperty()"></div>
+            <div class="property-modal"> <button class="modal-close" onclick="closeProperty()"> <i
+                        class="fa-solid fa-xmark"></i> </button>
+                <div class="modal-image"> <img id="modalImage" src="" alt="Property"> </div>
+                <div class="modal-content"> <span class="modal-label" id="modalType"> PROPERTY </span>
+                    <h2 id="modalTitle"> Property Title </h2>
+                    <div class="modal-location"> <i class="fa-solid fa-location-dot"></i> <span id="modalLocation">
+                            Kampala </span> </div>
+                    <div class="modal-price" id="modalPrice"> UGX 0 </div>
+                    <p id="modalDescription"> Property description. </p>
+                    <div class="modal-details">
+                        <div> <i class="fa-solid fa-ruler-combined"></i> <span id="modalSize">50 × 100 ft</span> </div>
+                        <div> <i class="fa-solid fa-file-contract"></i> <span id="modalTitleStatus">Title
+                                Available</span> </div>
+                    </div>
+                    <div class="modal-actions"> <a href="https://wa.me/256700000000" target="_blank"
+                            class="btn btn-whatsapp"> <i class="fa-brands fa-whatsapp"></i> WhatsApp Enquiry </a> <a
+                            href="tel:+256700000000" class="btn btn-dark"> <i class="fa-solid fa-phone"></i> Call Us
+                        </a> </div>
+                </div>
+            </div>
+        </div> <!-- ========================= FLOATING WHATSAPP ========================= --> <a
+            href="https://wa.me/256700000000" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i> </a>
+        <!-- ========================= BACK TO TOP ========================= --> <button class="back-top" id="backTop">
+            <i class="fa-solid fa-arrow-up"></i> </button>
+    </main> <!-- ========================= FOOTER ========================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand"> <a href="#home" class="logo footer-logo"> <span class="logo-mark">K</span> <span>
+                        <strong>KJB</strong> <small>PROPERTIES</small> </span> </a>
+                <p> Your trusted property partner for land, houses and buildings in Kampala and Uganda. </p>
+                <div class="footer-social"> <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a> <a href="#"> <i
+                            class="fa-brands fa-instagram"></i> </a> <a href="#"> <i class="fa-brands fa-tiktok"></i>
+                    </a> <a href="https://wa.me/256700000000"> <i class="fa-brands fa-whatsapp"></i> </a> </div>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4> <a href="#home">Home</a> <a href="#properties">Properties</a> <a
+                    href="#services">Services</a> <a href="#about">About Us</a> <a href="#sell">Sell Property</a> <a
+                    href="#contact">Contact</a>
+            </div>
+            <div class="footer-column">
+                <h4>Properties</h4> <a href="#properties">Land For Sale</a> <a href="#properties">Houses For Sale</a> <a
+                    href="#properties">Commercial Buildings</a> <a href="#properties">Investment Property</a> <a
+                    href="#sell">Sell Your Property</a>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p> <i class="fa-solid fa-location-dot"></i> Nateete, Kampala </p>
+                <p> <i class="fa-solid fa-phone"></i> +256 700 000 000 </p>
+                <p> <i class="fa-brands fa-whatsapp"></i> +256 700 000 000 </p>
+                <p> <i class="fa-solid fa-envelope"></i> info@kjbproperties.com </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p> © <span id="currentYear"></span> KJB Properties. All Rights Reserved. </p>
+                <p> Nateete, Kampala, Uganda </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
